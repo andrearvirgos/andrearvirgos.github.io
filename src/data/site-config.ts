@@ -6,7 +6,7 @@ export const siteConfig: SiteConfig = {
 	website: 'https://andrearvirgos.github.io',
 	avatar: {
 		src: avatar,
-		alt: 'Andrea R.Virgos'
+		alt: 'Andrea R. Virgos'
 	},
 	title: 'Mi Portfolio',
 	subtitle: 'Minimal Astro theme',
@@ -48,10 +48,6 @@ export const siteConfig: SiteConfig = {
 		}
 	],
 	socialLinks: [
-		{
-			text: 'Twitter',
-			href: 'https://twitter.com/'
-		},
 		{
 			text: 'GitHub',
 			href: 'https://github.com/andrearvirgos'
