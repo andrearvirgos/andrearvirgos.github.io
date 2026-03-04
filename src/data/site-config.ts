@@ -8,7 +8,7 @@ export const siteConfig: SiteConfig = {
 		src: avatar,
 		alt: 'Andrea R. Virgos'
 	},
-	title: 'Mi Portfolio',
+	title: 'My Portfolio',
 	subtitle: 'Andrea R. Virgos',
 	description: 'Portfolio personal creado con Astro y Tailwind CSS',
 	image: {
@@ -29,8 +29,8 @@ export const siteConfig: SiteConfig = {
 			href: '/blog'
 		},
 		{
-			text: 'Tags',
-			href: '/tags'
+			text: 'Github',
+			href: 'https://github.com/andrearvirgos'
 		}
 	],
 	footerNavLinks: [
@@ -40,18 +40,18 @@ export const siteConfig: SiteConfig = {
 		},
 		{
 			text: 'Contact',
-			href: '/contact'
+			href: 'andrearvirgos@gmail.com'
 		}
 	],
 	socialLinks: [
 		{
-			text: 'GitHub',
-			href: 'https://github.com/andrearvirgos'
+			text: 'LinkedIn',
+			href: 'https://www.linkedin.com/in/andrearvirgos/'
 		}
 	],
 	hero: {
-		title: 'Hola, soy Andrea',
-		text: 'Bienvenida a mi portfolio personal.',
+		title: 'Hi there! Welcome to mi portfolio',
+		text: 'Aquí tendría que escribir algo de presentación, distinta a la del linkedin',
 		image: hero,
 		actions: [
 			{
