@@ -9,8 +9,8 @@ export const siteConfig: SiteConfig = {
 		alt: 'Andrea R. Virgos'
 	},
 	title: 'Mi Portfolio',
-	subtitle: 'Minimal Astro theme',
-	description: 'Astro.js and Tailwind CSS theme for blog and portfolio',
+	subtitle: 'Andrea R. Virgos',
+	description: 'Portfolio personal creado con Astro y Tailwind CSS',
 	image: {
 		src: '/dante-preview.jpg',
 		alt: 'Dante - Astro.js and Tailwind CSS theme'
@@ -41,10 +41,6 @@ export const siteConfig: SiteConfig = {
 		{
 			text: 'Contact',
 			href: '/contact'
-		},
-		{
-			text: 'Terms',
-			href: '/terms'
 		}
 	],
 	socialLinks: [
@@ -55,11 +51,11 @@ export const siteConfig: SiteConfig = {
 	],
 	hero: {
 		title: 'Hola, soy Andrea',
-		text: 'Bienvenida a mi portfolio personal creado con Astro.',
+		text: 'Bienvenida a mi portfolio personal.',
 		image: hero,
 		actions: [
 			{
-				text: 'Mis Proyectos',
+				text: 'Ver Proyectos',
 				href: '/projects'
 			}
 		]
@@ -67,3 +63,5 @@ export const siteConfig: SiteConfig = {
 	postsPerPage: 8,
 	projectsPerPage: 8
 };
+
+export default siteConfig;
